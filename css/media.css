@@ -1,0 +1,40 @@
+/* Mobial and Tablet */
+@media(max-width:767px)
+{
+    .navbar-inverse .navbar-nav > li > a
+    {
+        padding-top:10px;
+        padding-bottom: 10px;
+    }
+    .Subs .form-control
+    {
+        margin:20px auto;
+        width:400px;
+    }
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse
+    {
+        max-height: none;
+    }
+    .Media
+    {
+        text-align: center;
+    }
+}
+/* Small Screen */
+@media(min-width:768) and (max-width:991)
+{
+
+}
+/* Media Screen */
+@media(min-width:992) and (max-width:999)
+{
+    .Media h3{
+        text-align: center;
+    }
+
+}
+/* Large Screen */
+@media(min-width:1000)
+{
+
+}

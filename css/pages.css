@@ -1,0 +1,107 @@
+/* Start About Us Page */
+.holder
+{
+    margin-top:55px;
+    background-color: #F5f5f5;
+}
+.breadcrumb
+{
+    padding:10px 0;
+    margin: 0;
+}
+
+.Intro
+{
+    /* margin-top: 20px; */
+    padding:70px 0;
+    margin-top: 0;
+}
+.Intro h1
+{
+    font-size: 40px;
+}
+.Intro hr
+{
+    width:70%;
+}
+.About-Features
+{
+    padding:0 0 70px;
+}
+.About-Features p{
+    margin-bottom: 20px;
+}
+.seo
+{
+    background-color: #eee;
+    padding-top: 40px;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, 
+.carousel-inner > .item > img, .carousel-inner > .item > a > img
+{
+    height: 200px;
+}
+.seo button
+{
+    border-color:#333;
+    background-color: #333;
+    margin-bottom: 10px;
+}
+@media(max-width:767px)
+{
+    .seo img
+    {
+        margin-top:40px;
+    }
+    .footer img
+    {
+        max-width: 50%;
+    }
+}
+@media(min-width:1000)
+{
+    .footer img
+    {
+        max-width: 25%;
+    }
+    
+}
+/* End About Us Page */
+/* Start FAQ */
+.faq
+{
+    padding:40px 0;
+}
+.faq h1
+{
+    font-size:65px;
+}
+.fqa h1-hr
+{
+    width:70%;
+}
+
+.faq-ques .panel-heading a:after{
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float:right;
+    color:#333;
+}
+.faq-ques .panel-heading a.collapsed:after
+{
+    content: "\e080";
+    color:#999;
+}
+/* End FAQ */
+/* Start Contact Page */
+.Contact-form
+{
+    max-width:360px;
+    margin:50px auto;
+}
+.Contact-form .form-group
+{
+    margin-bottom: 0;
+    position: relative;
+}
+/* End Contact Page */

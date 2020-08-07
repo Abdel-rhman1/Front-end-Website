@@ -1,0 +1,21 @@
+.navbar-brand span
+{
+    color:#E41B17;
+}
+.navbar-default .navbar-nav > .active > a,
+ .navbar-default .navbar-nav > .active > a:hover
+ {
+     background-color: #E41B17;
+     color:#fff;
+ }
+ .navbar-default .navbar-nav > .active > a,
+ .navbar-default .navbar-nav > li 
+ {
+    text-transform: uppercase;
+ }
+ .img-responsive, .thumbnail > img, .thumbnail a > img,
+ .carousel-inner > .item > img, .carousel-inner > .item > a > img
+{
+    height: 580px;
+    width: 100%;
+}
